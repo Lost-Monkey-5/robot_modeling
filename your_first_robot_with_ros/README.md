@@ -15,7 +15,7 @@ How to control your robot with ROS
 Advanced Utilities: Autonomous Navigation, Deep Learning …
 
 ## Units
-- [ ] Unit 1: Introduction
+- [x] Unit 1: Introduction
 - [ ] ~~Unit 2: Building the Physical Robot~~
 - [ ] Unit 3: Creating a Simulation of the Robot
 - [ ] ~~Unit 4: Connecting to the Physical Robot~~
