@@ -1,1 +1,3 @@
-# lebesgue_sampling_slam
+# Robot Modeling
+
+A collection of my material for the Robot Ignite Academy Courses.
