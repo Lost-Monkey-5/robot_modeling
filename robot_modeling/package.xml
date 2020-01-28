@@ -49,6 +49,5 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend> your_first_robot_with_rps </exec_depend>
-
   <!-- The export tag contains other, unspecified, tags -->
 </package>
