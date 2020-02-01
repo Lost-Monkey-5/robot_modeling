@@ -55,13 +55,13 @@
         </geometry>
         <origin xyz="-0.52 -0.4 0.0" rpy="0 0 0"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.01 0 0.7"/>
         <mass value="1.0"/>
         <inertia ixx="0.01" ixy="0.0" ixz="0.0"
                  iyy="0.01" iyz="0.0" 
                  izz="0.03" />
-      </inertial>
+      </inertial-->
     </link>
 
     <!--The robot's micro-controller, on the second level. -->
@@ -83,13 +83,13 @@
         </geometry>
         <origin xyz="0.9 -1.25 0" rpy="0 0 1.57"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.01 0 0"/>
         <mass value="1.0"/>
         <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
                  iyy="0.019995" iyz="0.0" 
                  izz="0.03675" />
-      </inertial>
+      </inertial-->
     </link>
 
     <!--The robot's micro-controller, on the second level. -->
@@ -111,13 +111,13 @@
         </geometry>
         <origin xyz="0.9 -1.25 0" rpy="0 0 1.57"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.01 0 0"/>
         <mass value="1.0"/>
         <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
                  iyy="0.019995" iyz="0.0" 
                  izz="0.03675" />
-      </inertial>
+      </inertial-->
     </link>
 
     <!--The tandoff to support the micro-controllers on the second level. -->
@@ -223,13 +223,13 @@
         </geometry>
         <origin xyz="0 4.5 0.05" rpy="1.57 0 1.57"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.01 0 0"/>
         <mass value="1.0"/>
         <inertia ixx="0.01" ixy="0.0" ixz="0.0"
                  iyy="0.01" iyz="0.0" 
                  izz="0.03" />
-      </inertial>
+      </inertial-->
     </link>
     
     <!--Standoff to connect the first and second floors of the robot. -->
@@ -251,13 +251,13 @@
         </geometry>
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.0 0 0"/>
         <mass value="1.0"/>
-        <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
+       <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
                  iyy="0.019995" iyz="0.0" 
                  izz="0.03675" />
-      </inertial>
+      </inertial-->
     </link>
 
     <!--Standoff to connect the first and second floors of the robot. -->
@@ -279,13 +279,13 @@
         </geometry>
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
-      <inertial>
+      <!--inertial>
         <origin xyz="0.0 0 0"/>
         <mass value="1.0"/>
         <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
                  iyy="0.019995" iyz="0.0" 
                  izz="0.03675" />
-      </inertial>
+      </inertial-->
     </link>
  
     <!--Standoff to connect the first and seconf floors of the robot. -->
@@ -307,6 +307,13 @@
         </geometry>
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
+      <!--inertial>
+        <origin xyz="0.0 0 0"/>
+        <mass value="1.0"/>
+       <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
+                 iyy="0.019995" iyz="0.0" 
+                 izz="0.03675" />
+      </inertial-->
     </link>
 
     <!--Standoff to connect the first and seconf floors of the robot. -->
@@ -328,6 +335,13 @@
         </geometry>
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
+      <!--inertial>
+        <origin xyz="0.0 0 0"/>
+        <mass value="1.0"/>
+       <inertia ixx="0.019995" ixy="0.0" ixz="0.0"
+                 iyy="0.019995" iyz="0.0" 
+                 izz="0.03675" />
+      </inertial-->
     </link>
 
     <!--Left Wheel of the robot. -->
