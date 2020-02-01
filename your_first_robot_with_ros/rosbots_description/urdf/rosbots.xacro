@@ -2,6 +2,7 @@
 <robot name="rosbots" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <xacro:include filename="$(find rosbots_description)/urdf/rosbots.gazebo.xacro" />
+    <xacro:include filename="$(find rosbots_description)/urdf/rosbots.camera.xacro" />
 
     <link name="base_footprint"/>
 
