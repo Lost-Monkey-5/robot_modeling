@@ -30,6 +30,8 @@
        <distortionT1>0.0</distortionT1>
        <distortionT2>0.0</distortionT2>
      </plugin>
-   </sensor> 
+   </sensor>
+   <mu1>0.2</mu1>
+   <mu2>0.2</mu2>
  </gazebo>
 </robot>
