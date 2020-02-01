@@ -3,6 +3,7 @@
 
     <xacro:include filename="$(find rosbots_description)/urdf/rosbots.gazebo.xacro" />
     <xacro:include filename="$(find rosbots_description)/urdf/rosbots.camera.xacro" />
+    <xacro:include filename="$(find rosbots_description)/urdf/rosbots.camera.gazebo.xacro" />
 
     <link name="base_footprint"/>
 
