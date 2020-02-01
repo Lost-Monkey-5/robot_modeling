@@ -16,8 +16,8 @@ Advanced Utilities: Autonomous Navigation, Deep Learning …
 
 ## Units
 - [x] Unit 1: Introduction
-- [ ] ~~Unit 2: Building the Physical Robot~~
-- [ ] Unit 3: Creating a Simulation of the Robot
+- [x] ~~Unit 2: Building the Physical Robot~~
+- [x] Unit 3: Creating a Simulation of the Robot
 - [ ] ~~Unit 4: Connecting to the Physical Robot~~
 - [ ] Unit 5: Creating the Motor Drivers
 - [ ] ~~Unit 6: Autonomous Navigation I~~
