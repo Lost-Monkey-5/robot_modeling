@@ -10,10 +10,10 @@ For a robot, though, how can we know all this information? Well, this is exactly
 In this course, you will understand how URDF files work, and how to create them for any robot.	
 
 ## What You Will Learn	
-How to build a visual robot model with URDF
-How to add physical properties to a URDF Model (Collision, Frictions…)
-How to use XACRO to clean up URDF files.
-How to use URDF in Gazebo-ROS ecosystem.
+- How to build a visual robot model with URDF
+- How to add physical properties to a URDF Model (Collision, Frictions…)
+- How to use XACRO to clean up URDF files.
+- How to use URDF in Gazebo-ROS ecosystem.
 
 ## Units
 - [ ] Unit 1: URDF Introduction
