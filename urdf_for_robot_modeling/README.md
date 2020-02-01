@@ -1,26 +1,25 @@
-# Your First Robot With ROS
-## Robot Ignite Academy: Your First Robot with ROS	
-Creating your first ROS based Robot from Scratch.	
+# URDF for Robot Modeling
+## Robot Ignite Academy: URDF for Robot Modeling	
+Understanding robot modeling using URDF.
 
 ## Course Overview	
-Have you ever dreamed of creating a robot, a robot that truly belongs to you.	
+As human beings, we learn from a very young age about our body’s structure: which bones and muscles are part of it, how they are connected between them, how we can move each articulation, etc.
 
-Within this course, you are going to make your dream come true. You will go through the whole process of mounting the robot, creating a simulation for the robot so that you can test your ROS programs there, building all the controllers for the robot, and finally, getting it to autonomously navigate using ROS tools.	
+For a robot, though, how can we know all this information? Well, this is exactly what URDF files are going to tell us. URDF files define the structure of a robot, the connection between all the different parts, etc.
+
+In this course, you will understand how URDF files work, and how to create them for any robot.	
 
 ## What You Will Learn	
-From idea to real robot	
-How to mount a real robot	
-How to create a simulation for the robot	
-How to control your robot with ROS	
-Advanced Utilities: Autonomous Navigation, Deep Learning …
+How to build a visual robot model with URDF
+How to add physical properties to a URDF Model (Collision, Frictions…)
+How to use XACRO to clean up URDF files.
+How to use URDF in Gazebo-ROS ecosystem.
 
 ## Units
-- [x] Unit 1: Introduction
-- [x] ~~Unit 2: Building the Physical Robot~~
-- [x] Unit 3: Creating a Simulation of the Robot
-- [x] ~~Unit 4: Connecting to the Physical Robot~~
-- [ ] Unit 5: Creating the Motor Drivers
-- [ ] ~~Unit 6: Autonomous Navigation I~~
-- [ ] ~~Unit 7: Autonomous Navigation II~~
-- [ ] ~~Unit 8: Robot Deep Learning~~
-- [ ] ~~Unit 9: Final Recommendations~~
+- [ ] Unit 1: URDF Introduction
+- [ ] Unit 2: Building the Visual Robot Model with URDF
+- [ ] Unit 3: Using URDF for Gazebo
+- [ ] Unit 4: QUIZ: Create the URDF files for a Gurdy Robot from scratch
+- [ ] Unit 5: XACRO files
+- [ ] Unit 6: PROJECT: Create the URDF files for a Jibo Robot from scratch
+- [ ] Unit 7: What to do next
