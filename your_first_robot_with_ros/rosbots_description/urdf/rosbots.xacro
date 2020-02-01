@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <robot name="rosbots" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+    <xacro:include filename="$(find rosbots_description)/urdf/rosbots.gazebo.xacro" />
+
     <link name="base_footprint"/>
 
     <!--The Base of the robot, forming the first level. -->
@@ -32,7 +34,7 @@
     </link>
  
     <!--The Base of the robot, forming the second level. -->
-<!--    <joint name="second_level_joint" type="fixed">
+    <joint name="second_level_joint" type="fixed">
       <origin xyz="0 0 0.68" rpy="0 0 0" />
       <parent link="base_link"/>
       <child link="base_second_link" />
@@ -58,9 +60,9 @@
                  izz="0.03" />
       </inertial>
     </link>
--->
+
     <!--The robot's micro-controller, on the second level. -->
-<!--     <joint name="mcu_joint" type="fixed">
+     <joint name="mcu_joint" type="fixed">
       <origin xyz="0.02 0.12 0.73" rpy="0 0 0" />
       <parent link="base_link"/>
       <child link="mcu_link" />
@@ -86,9 +88,9 @@
                  izz="0.03675" />
       </inertial>
     </link>
--->
+
     <!--The robot's micro-controller, on the second level. -->
- <!--   <joint name="mcu_joint_1" type="fixed">
+   <joint name="mcu_joint_1" type="fixed">
       <origin xyz="0.02 0.12 0.83" rpy="0 0 0" />
       <parent link="base_link"/>
       <child link="mcu_link_1" />
@@ -114,9 +116,9 @@
                  izz="0.03675" />
       </inertial>
     </link>
--->
+
     <!--The tandoff to support the micro-controllers on the second level. -->
- <!--   <joint name="stand_mcu1_joint" type="fixed">
+   <joint name="stand_mcu1_joint" type="fixed">
       <origin xyz="0.02 0.25 0.78" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_mcu1_link" />
@@ -135,9 +137,9 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
--->
+
     <!--The tandoff to support the micro-controllers on the second level. -->
- <!--   <joint name="stand_mcu2_joint" type="fixed">
+   <joint name="stand_mcu2_joint" type="fixed">
       <origin xyz="0.02 -0.1125 0.78" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_mcu2_link" />
@@ -156,9 +158,9 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
--->
+
    <!--The tandoff to support the micro-controllers on the second level. -->
- <!--  <joint name="stand_mcu3_joint" type="fixed">
+  <joint name="stand_mcu3_joint" type="fixed">
       <origin xyz="0.25 0.25 0.78" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_mcu3_link" />
@@ -177,9 +179,9 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
--->
+
     <!--The tandoff to support the micro-controllers on the second level. -->
- <!--   <joint name="stand_mcu4_joint" type="fixed">
+   <joint name="stand_mcu4_joint" type="fixed">
       <origin xyz="0.25 -0.1125 0.78" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_mcu4_link" />
@@ -198,9 +200,9 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
--->
+
     <!--Battery to supply power to the robot on the first level. -->
-<!--    <joint name="batery_joint" type="fixed">
+    <joint name="batery_joint" type="fixed">
       <origin xyz="1.2 0.2 0.43" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="batery_link" />
@@ -226,9 +228,9 @@
                  izz="0.03" />
       </inertial>
     </link>
--->    
+    
     <!--Standoff to connect the first and second floors of the robot. -->
- <!--   <joint name="stand_1_joint" type="fixed">
+   <joint name="stand_1_joint" type="fixed">
       <origin xyz="0.5 0.4125 0.58" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_1_link" />
@@ -254,9 +256,9 @@
                  izz="0.03675" />
       </inertial>
     </link>
--->
+
     <!--Standoff to connect the first and second floors of the robot. -->
- <!--   <joint name="stand_2_joint" type="fixed">
+   <joint name="stand_2_joint" type="fixed">
       <origin xyz="0.5 -0.2625 0.58" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_2_link" />
@@ -282,9 +284,9 @@
                  izz="0.03675" />
       </inertial>
     </link>
-   --> 
+ 
     <!--Standoff to connect the first and seconf floors of the robot. -->
- <!--   <joint name="stand_3_joint" type="fixed">
+   <joint name="stand_3_joint" type="fixed">
       <origin xyz="-0.4 0.4125 0.58" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_3_link" />
@@ -303,9 +305,9 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
---> 
+
     <!--Standoff to connect the first and seconf floors of the robot. -->
- <!--   <joint name="stand_4_joint" type="fixed">
+   <joint name="stand_4_joint" type="fixed">
       <origin xyz="-0.4 -0.2625 0.58" rpy="0 0 1.57" />
       <parent link="base_link"/>
       <child link="stand_4_link" />
@@ -324,8 +326,8 @@
         <origin rpy="0.0 0 0" xyz="0 0 0.0"/>
       </collision>
     </link>
--->
-<!--Left Wheel of the robot. -->
+
+    <!--Left Wheel of the robot. -->
     <joint name="wheel_left_joint" type="continuous">
       <parent link="base_link"/>
       <child link="wheel_left_link"/>
@@ -357,9 +359,36 @@
     </link>
 
     <!--Right Wheel of the robot. -->
+    <joint name="wheel_right_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="wheel_right_link"/>
+      <origin xyz="0.15 -0.5625 0.30" rpy="-1.57 0 0"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+    <link name="wheel_right_link">
+      <collision>
+        <geometry>
+         <cylinder length="0.20" radius="0.23"/>
+        </geometry>
+        <origin rpy="0.0 0.0 0" xyz="0 0 0.195"/>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh filename="package://rosbots_description/meshes/wheel.dae" scale="8.0 8.0 8.0"/>
+        </geometry>
+        <origin rpy="0.0 0 0" xyz="0 0 0"/>
+      </visual>
+      <inertial>
+        <mass value="0.4" />
+        <origin xyz="0 0 0.3" />
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+                 iyy="0.001" iyz="0.0" 
+                 izz="0.001" />
+      </inertial>
+    </link>
 
     <!--Caster Wheel of the robot. -->
-<!--    <joint name="caster_back_joint" type="fixed">
+    <joint name="caster_back_joint" type="fixed">
       <parent link="base_link"/>
       <child link="caster_back_link"/>
       <origin xyz="-0.4 0.1 0.26" rpy="0 0 0"/>
@@ -385,5 +414,4 @@
                  izz="0.001023539" />
       </inertial>
     </link>
--->
 </robot>
